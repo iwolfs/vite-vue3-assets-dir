@@ -17,5 +17,10 @@ export default defineConfig({
   build: {
     // outDir: './dist/app',
     assetsDir: './app/assets',
+  },
+
+  preview: {
+    port: 6047,
+    host: '0.0.0.0',
   }
 })
